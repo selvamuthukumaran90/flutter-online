@@ -1,0 +1,100 @@
+smartherd 
+
+Mobile UI frameework
+single codebase for android and IOs
+
+dart language
+
+flutter is statically typed language.
+native app development with android or ios
+Native app deveopment for android is by android studio, language is
+ java or kotlin
+
+Native app development for ios is by Xcode,
+language is objective C
+swift
+
+
+
+WAP -wireless application protocol for mobile appliction development
+
+
+Hubird app is by flutter framework.
+flutter used dark language
+
+it is statically typed language.
+also called strongly typed language
+
+dart language is developed by google
+object oriented language
+
+
+JIT compilation - Just In time compilation
+AOT- ahead of time compilation
+
+flutter plugin
+Dart plugin
+
+flutter apps is developed using android studio itself. but we have download plugin
+
+Dart language
+------------
+
+string interpolation.
+instead of using + sign, use string interpolation.
+
+
+int a=10
+var a=12
+
+final a=10
+const b=13;
+
+final name="peter"
+const name="mani"
+static const
+
+
+difference between final, const and static const in dart
+
+class Circle{
+final color="red";  //IT is ok
+const PI=3.14;  //Not allowed. Use static const instead.
+}
+
+considtional stmt
+-----------------
+
+java we use (condition)?exp1:exp2
+
+function parameters
+---------------------
+Required parameteres
+Optional parameters
+	-> Optional positional parameters
+	-> Optinal Named parameters
+	-> Optional Default parameters
+
+try{
+
+}
+On IntegerDivisionByZeroException{
+
+}
+------------------------
+try{
+
+}
+catch(e){
+print(e)
+}
+--------------------------
+try{
+
+}
+catch(e,s){
+print(s)
+}
+
+
+
