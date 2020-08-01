@@ -96,5 +96,10 @@ catch(e,s){
 print(s)
 }
 
+Flutter:
+-----------
 
+runApp() - is used to show the widgets
+Hello flutter first programm i am using two widgets like Center and Text.
+Also, here I am using named optional parameters often.
 
