@@ -1,0 +1,52 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MaterialApp(title: "Exploreing new Widgets", home: Home()));
+}
+
+//----------------------------------------
+
+//import 'package:flutter/material.dart';
+
+class Home extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+        child: Container(
+            alignment: Alignment.center,
+            color: Colors.deepPurple,
+            // width:200.0,height:100.0,
+            //  margin:EdgeInsets.all(15.0),
+            // margin:EdgeInsets.only(left:35.0),
+             padding:EdgeInsets.only(left:10.0,top:40.0),
+
+            child: Column(children: [Row(children:[
+                Expanded(
+                    child: Text("Spice Jet",
+                        textDirection: TextDirection.ltr,
+                        style: TextStyle(
+                            decoration: TextDecoration.none,
+                            fontSize: 35.0,
+                            color: Colors.white))),
+                Expanded(child: Text("From mumbai to Bangalore via Delhi",
+                        textDirection: TextDirection.ltr,
+                        style: TextStyle(
+                            decoration: TextDecoration.none,
+                            fontSize: 35.0,
+                            color: Colors.white)))]),Row(children:[
+                Expanded(
+                    child: Text("Indico",
+                        textDirection: TextDirection.ltr,
+                        style: TextStyle(
+                            decoration: TextDecoration.none,
+                            fontSize: 35.0,
+                            color: Colors.white))),
+                Expanded(child: Text("From USA to india",
+                        textDirection: TextDirection.ltr,
+                        style: TextStyle(
+                            decoration: TextDecoration.none,
+                            fontSize: 35.0,
+                            color: Colors.white)))])]     
+                         )));
+  }
+  }
